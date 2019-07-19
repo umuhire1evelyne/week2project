@@ -4,4 +4,8 @@ body{
 .title{
     text-align: center;
     text-decoration-color: brown;
+    float: center;
+}
+form{
+    float: center;
 }
