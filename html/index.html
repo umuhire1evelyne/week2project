@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    
+    
+    <!-- <link rel="stylesheet" href="/bootstrap.css"> -->
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/javascript/script.js"></script>
+    
     <title>Akan names</title>
 
 </head>
 <body>
-    <div class="title">
-        <h1>AKAN NAMES</h1>
-        <p>
-             <strong>This Application is for calculating the day that people<br> were born on.
-                then depending on their gender it will give the akan name.</strong>
-
-        </p>
+    <div class="t">
+            <div class="card">
+                    <div class="title">
+                            <h1>AKAN NAMES</h1>
+                            <p>
+                                 <strong>This Application is for calculating the day that people<br> were born on.
+                                    then depending on their gender it will give the akan name.</strong>
+                    
+                            </p>
+                        </div>
+                    
+                        <table>
+                                <tr>
+                                
+                                        <center>
+                                        Enter your names
+                                        <input name="firstname" type="text" id="yourname"><br><br>
+                        
+                                        Enter the day
+                                        <input type="text" id="dday">
+                                        <br><br>
+                        
+                                        Enter the month
+                                        <input type="text" id="mmonth">
+                                        <br><br>
+                        
+                                        Enter the year
+                                        <input type="text" id="yyear">
+                                        <br><br>
+                        
+                                        Enter the century
+                                        <input type="text" id="ccentury">
+                                        <br><br>
+                                        
+                                        Your gender<br><br>
+                                        <input type="radio" name="gender" value="male" id="yourgender">Male
+                                        <input type="radio" name="gender" value="female" id="yourgender">Female
+                                        <input type="radio" name="gender" value="other" id="yourgender">Other<br><br><br><br>
+                                        <input type="submit" onclick="akanName()">
+                                        
+                                        </center>
+                                    
+                                    <p id="p1">
+                                        </p>
+                                    </tr>
+                                    </table>
+            </div>
     </div>
-
-    <table>
-            <tr>
-            <form>
-                    <center>
-                    Enter your names
-                    <input name="firstname" type="text" id="yourname"><br><br>
     
-                    Enter the day
-                    <input type="text" id="yourname">
-                    <br><br>
-    
-                    Enter the month
-                    <input type="text" id="mmonth">
-                    <br><br>
-    
-                    Enter the year
-                    <input type="text" id="yyear">
-                    <br><br>
-    
-                    Enter the century
-                    <input type="text" id="ccentury">
-                    <br><br>
-                    
-                    Your gender<br><br>
-                    <input type="radio" name="gender" value="male">Male
-                    <input type="radio" name="gender" value="female">Female
-                    <input type="radio" name="gender" value="other">Other<br><br><br><br>
-                    <input type="submit" onclick="akanName()">
-                    
-                    </center>
-                </form>
-                <p id="p1">
-                    </p>
-                </tr>
-                </table>
-<script src="javascript/script.js"></script>
+   
+<script src="/javascript/script.js"></script>
+<footer>
+    <p>&copy; Copyright 2019 Evelyne UMUHIRE</p>
+</footer>
+<div class="media">
+        <h2>Found us Here for more info..</h2>
+        <div class="bottom">
+        <ul>
+        <li><a href="https://www.facebook.com/people/Umuhire-Evelyne/100005308335122" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.instagram.com/umuhire_lyn/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>>
+         <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+        </div>
 </body>
 </html>
